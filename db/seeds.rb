@@ -8,8 +8,27 @@
 
 User.destroy_all
 
-User.create(name: Faker::Name.name, email: Faker::Internet.email)
-User.create(name: Faker::Name.name, email: Faker::Internet.email)
-User.create(name: Faker::Name.name, email: Faker::Internet.email)
-User.create(name: Faker::Name.name, email: Faker::Internet.email)
-User.create(name: Faker::Name.name, email: Faker::Internet.email)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+User.create(username: Faker::Name.name)
+
+
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 1)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 2)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 3)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 4)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 5)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 6)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 7)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 8)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 9)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 10)
+Artwork.create(title: Faker::Zelda.location, image_url: 'love.com', artist_id: 11)
